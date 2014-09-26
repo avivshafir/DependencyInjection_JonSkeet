@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.30723.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyInjection_JonSkeet", "DependencyInjection_JonSkeet\DependencyInjection_JonSkeet.csproj", "{C2CECFD7-383D-4773-8A98-15206532B716}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{FFC71D6F-BD3D-4EC3-8C7C-8799E82ABEDF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyInjectionDemo", "DependencyInjectionDemo\DependencyInjectionDemo.csproj", "{137BA64C-D5AE-41C1-957F-5B7B01F5BDD1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{C2CECFD7-383D-4773-8A98-15206532B716}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C2CECFD7-383D-4773-8A98-15206532B716}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C2CECFD7-383D-4773-8A98-15206532B716}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C2CECFD7-383D-4773-8A98-15206532B716}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFC71D6F-BD3D-4EC3-8C7C-8799E82ABEDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFC71D6F-BD3D-4EC3-8C7C-8799E82ABEDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFC71D6F-BD3D-4EC3-8C7C-8799E82ABEDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFC71D6F-BD3D-4EC3-8C7C-8799E82ABEDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{137BA64C-D5AE-41C1-957F-5B7B01F5BDD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{137BA64C-D5AE-41C1-957F-5B7B01F5BDD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{137BA64C-D5AE-41C1-957F-5B7B01F5BDD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{137BA64C-D5AE-41C1-957F-5B7B01F5BDD1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

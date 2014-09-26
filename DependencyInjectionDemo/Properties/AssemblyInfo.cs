@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("DependencyInjection_JonSkeet")]
+[assembly: AssemblyTitle("DependencyInjectionDemo")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("DependencyInjection_JonSkeet")]
+[assembly: AssemblyProduct("DependencyInjectionDemo")]
 [assembly: AssemblyCopyright("Copyright ©  2014")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("3034d7a9-3949-419c-b598-08ff2c39a877")]
+[assembly: Guid("4d15ab05-d459-435b-aea1-86f2236ffd1a")]
 
 // Version information for an assembly consists of the following four values:
 //

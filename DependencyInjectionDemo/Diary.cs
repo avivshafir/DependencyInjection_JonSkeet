@@ -1,9 +1,13 @@
 ﻿using NodaTime;
+using NodaTime.Text;
 
-namespace DependencyInjection_JonSkeet
+namespace DependencyInjectionDemo
 {
     public class Diary
     {
+        private readonly LocalDatePattern outputPattern =
+            LocalDatePattern.CreateWithInvariantCulture("yyyy-MM-dd");
+
         private readonly IClock clock;
         private readonly CalendarSystem calender;
         private readonly DateTimeZone timeZone;
@@ -15,9 +19,10 @@ namespace DependencyInjection_JonSkeet
             this.timeZone = timeZone;
         }
 
-        public string DisplayToday()
+        public string FormatToday()
         {
-            
+            LocalDate date = clock.Now.InZone(timeZone, calender).LocalDateTime.Date;
+            return outputPattern.Format(date);
         }
     }
 }
